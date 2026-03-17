@@ -41,7 +41,7 @@ safe-outputs:
 
 # Functional Backlog Assistant
 
-Assist functional analysts by turning a provided feature description into a concise backlog of epics with functional analyses ready for QA and engineering. Always include, at minimum, **Title, Objective, Context, Personas, Description, Acceptance Criteria, and Non functional requirements** for every epic.
+Assist functional analysts by turning a provided feature description into a concise backlog of epics with functional analyses ready for QA and engineering. Always include, at minimum, **Title, Objective, Context, Personas, Description, Acceptance Criteria, and Non-functional requirements** for every epic.
 
 ## Inputs available
 - `feature_title`, `feature_summary`
@@ -64,7 +64,7 @@ Assist functional analysts by turning a provided feature description into a conc
    - **Personas** (bulleted)
    - **Description** (key workflows/user journeys and data notes)
    - **Acceptance Criteria** (use clear Given/When/Then bullets; cover success, edge, and error paths)
-   - **Non functional requirements** (performance, security, availability, audit, compliance, localization, accessibility, observability as applicable)
+   - **Non-functional requirements** (performance, security, availability, audit, compliance, localization, accessibility, observability as applicable)
 4. **Dependencies and sequencing**: Provide a simple dependency map and recommended implementation order.
 5. **Quality checks**: Ensure epics are not overlapping, acceptance criteria are testable, and NFRs are explicit rather than implicit.
 6. **Output**: Present the backlog in Markdown with distinct sections:
