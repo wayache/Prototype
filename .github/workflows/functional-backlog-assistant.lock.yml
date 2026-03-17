@@ -22,7 +22,7 @@
 # For more information: https://github.github.com/gh-aw/introduction/overview/
 #
 #
-# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"1e4877389d0a7b238ff1a470c2a5715603479c004d81d75e76df074fcef70a1b","compiler_version":"v0.59.0","strict":true}
+# gh-aw-metadata: {"schema_version":"v2","frontmatter_hash":"afb1ab036f0c4d688de2a984bf968f899afed27a0494f4436cf38aeb20312876","compiler_version":"v0.59.0","strict":true}
 
 name: "Functional Backlog Assistant"
 "on":
@@ -45,6 +45,10 @@ name: "Functional Backlog Assistant"
         required: true
       non_functional_notes:
         description: Performance, security, compliance, or other NFR hints
+        required: false
+      proposal_action:
+        default: propose
+        description: Leave as 'propose' to get a draft for manual review; set to 'approve' after review to publish the final backlog
         required: false
       stakeholders_personas:
         description: Key personas or user roles involved (comma-separated)
